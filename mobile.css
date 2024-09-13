@@ -1,0 +1,42 @@
+@media (max-width: 576px) {
+    .icon-con {
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    .new-album {
+        flex-direction: column;
+        justify-content: space-between;
+
+        margin-top: 200px;
+    }
+
+    .buy-album {
+        margin-top: 30px;
+    }
+
+    .videos {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-con {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 350px);
+    }
+
+    main {
+        margin-bottom: 1350px;
+    }
+
+    .gi1, .gi2, .gi3, .gi4, .gi5 {
+        grid-column: span 12;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+}

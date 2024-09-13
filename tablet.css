@@ -1,0 +1,35 @@
+@media  (max-width: 992px) {
+    .nav-con {
+        display: none;
+    }
+
+    .new-album {
+        padding: 0;
+    }
+
+    .profile {
+        flex-direction: column;
+        margin: 50px 0;
+    }
+
+    .profile-info {
+        align-items: center;
+    }
+
+    .videos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+
+    .tracks .new-album {
+        padding: 0;
+    }
+
+    .gallery-con {
+        padding: 0 3rem;
+    }
+
+    .footer {
+        padding: 0;
+    }
+}

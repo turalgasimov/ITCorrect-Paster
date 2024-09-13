@@ -1,0 +1,1 @@
+1) ask logo centering (margin auto)
